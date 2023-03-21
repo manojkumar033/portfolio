@@ -48,13 +48,22 @@
     margin-right: 12%;
 }
 
+#contact{
+    justify-items: center;
+    margin-left:12%;
+    margin-right: 12%;
+}
+#contact-h{
+    font-size: 5vw;
+    padding: 2% 0% 2% 40%;
+}
  #about-h{
-    font-size: 4vw;
+    font-size: 5vw;
    padding: 2% 0% 2% 40%;
 }
 
 #education-h{
-    font-size: 4vw;
+    font-size: 5vw;
     padding: 2% 0% 2% 40%;
  }
  p{
@@ -86,5 +95,8 @@
      
      #education-h{
          padding: 2% 0% 2% 30%;
+      }
+      #contact-h{
+        padding: 2% 0% 2% 30%;
       }
   }
