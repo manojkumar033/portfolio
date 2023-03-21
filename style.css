@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 8% 2% 12%;
+}
+
+.course-name{
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(142, 145, 145);
+    margin-bottom: .5%;
+}
+.report-title{
+    font-size:4vw ;
+    text-transform: uppercase;
+    margin-bottom: .5%;
+}
+
+.report-heading{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.portfolio-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-me{
+    justify-items: center;
+    margin-left:12%;
+    margin-right: 12%;
+}
+
+.education{
+    justify-items: center;
+    margin-left:12%;
+    margin-right: 12%;
+}
+
+ .about-h{
+    font-size: 4vw;
+   padding: 2% 0% 2% 40%;
+}
+
+.education-h{
+    font-size: 4vw;
+    padding: 2% 0% 2% 40%;
+ }
+ p{
+    font-size:medium;
+ }
+
+ hr {
+    border-top: 6px solid rgb(216, 124, 124);
+    margin: 2% 12% 3% 12%;
+  }
+
+  @media screen and (max-width: 480px) {
+    hr {
+        border-top: 5px solid rgb(83, 52, 52);
+       
+      }
+    .course-name{
+        font-size: 3vw;
+    }
+    .report-title{
+        font-size: 5vw;
+    }
+    .report-heading{
+        font-size: 4vw;
+    }
+    .about-h{
+        padding: 2% 0% 2% 30%;
+     }
+     
+     .education-h{
+         padding: 2% 0% 2% 30%;
+      }
+  }
